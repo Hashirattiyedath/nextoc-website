@@ -1,0 +1,26 @@
+@mixin reset_list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+@mixin flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flexChange($justify, $direction) {
+    display: flex;
+    justify-content: $justify;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+@mixin margin_inline {
+    margin: { 
+        left: auto;
+        right: auto;
+    }
+}
+

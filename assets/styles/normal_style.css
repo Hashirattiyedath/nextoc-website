@@ -5145,13 +5145,28 @@ border-radius: 20px;
   top: 0;
   bottom: 0;
   width: 100%;
-  background: url(../images/bg.jpg);
+  /* background: url(../images/bg.jpg); */
+  background-color: #171616;
   background-blend-mode: multiply;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  z-index: 999999999999;
+  z-index: 100;
+}
+
+.preloader__new::before {
+  display: block;
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(ellipse farthest-corner at 100% 150%,#000 20%,transparent 60%);
+  z-index: 9999;
 }
 
 .preloader__img {

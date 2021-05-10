@@ -12,10 +12,10 @@
          <p>Nextoc is stock trader company, we have advised clients on their investment and stock trading decisions and financial options.</p>
          <p>Copyright by <b>NEXTOC</b>, All Right Reserved</p> 
          <ul class="footer-social-links list-unstyled">
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="https://www.instagram.com/nextoc_" target="_blank"><i class="fa fa-instagram"></i></a></li>
-            <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
-            <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+            <li data-aos-offset="61" data-aos="fade-left" data-aos-duration="900" data-aos-delay="100"><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li data-aos-offset="61" data-aos="fade-left" data-aos-duration="900" data-aos-delay="300"><a href="https://www.instagram.com/nextoc_" target="_blank"><i class="fa fa-instagram"></i></a></li>
+            <li data-aos-offset="61" data-aos="fade-left" data-aos-duration="900" data-aos-delay="500"><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+            <li data-aos-offset="61" data-aos="fade-left" data-aos-duration="900" data-aos-delay="700"><a href="#"><i class="fa fa-youtube-play"></i></a></li>
             </ul>
          </div>
        </div>
@@ -40,7 +40,7 @@
             <li>- &nbsp; Education Programs </li>
             </ul>
 
-            <p class="made">Made by 💖 <a href="https://www.mentegoz.com" target="_blank">Mentegoz Technologies</a></p>
+            <p class="made">Made by 💖 <a href="https://www.mentegoz.com" target="_blank">Mentegoz Technologies -</a></p>
         </div>
       </div>
     </div>
@@ -83,14 +83,15 @@
 
 <!-- script-area    -->
 <script src="./assets/js/jquery-2.0.0.js"></script>
-<script src="/assets/js/bootstrap.bundle.min.js"></script>
 <script src="./assets/js/app.js"></script>
+<script src="/assets/js/bootstrap.bundle.min.js"></script>
 <script src="./assets/js/SmoothScrollMouseWheel.js"></script>
 <script src="./assets/js/swiper.min.js"></script>
 <script src="./assets/js/wow.min.js"></script>
 <script src="./assets/js/wow_cusome.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.3.4/dist/gsap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.3.4/dist/ScrollTrigger.js"></script>
+<script src="./assets/js/aos.js"></script>
 <script>
    gsap.registerPlugin(ScrollTrigger);
  gsap.to('progress', {
@@ -124,5 +125,9 @@
         menu_section.classList.remove("burger_active");
       }
 	})
-    
+</script>
+
+<script>
+  //AOS
+AOS.init();
 </script>

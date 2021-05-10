@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="./assets/styles/animate.css">
     <link rel="stylesheet" href="./assets/styles/swiper.min.css">
     <link rel="stylesheet" href="./assets/styles/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/styles/aos.css">
     <link rel="stylesheet" href="./assets/styles/style.css">
     <link rel="stylesheet" href="./assets/styles/normal_style.css">
 </head>
@@ -53,7 +54,7 @@
      </h3>
             </div>
             <div class="logo_img">
-                <a href="index.php"><img loading="lazy" src="./assets/images/logo.png" class="img-fluid" alt=""></a>
+                <a href="index.php"><img loading="lazy" src="./assets/images/logo.png" class="img-fluid wow tada" data-wow-delay="5s" alt=""></a>
             </div>
             <div class="hamburger_menu">
                 <h3>MENU</h3>
@@ -130,8 +131,6 @@
          </ul>
     </aside> -->
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 283.5 19.6" preserveAspectRatio="none">
-        <path class="elementor-shape-fill" style="opacity:0.33" d="M0 0L0 18.8 141.8 4.1 283.5 18.8 283.5 0z"></path>
-        <path class="elementor-shape-fill" style="opacity:0.33" d="M0 0L0 12.6 141.8 4 283.5 12.6 283.5 0z"></path>
         <path class="elementor-shape-fill" style="opacity:0.33" d="M0 0L0 6.4 141.8 4 283.5 6.4 283.5 0z"></path>
         <path class="elementor-shape-fill" d="M0 0L0 1.2 141.8 4 283.5 1.2 283.5 0z"></path>
     </svg>
@@ -142,15 +141,14 @@
 <!--=====================================================
 					ABOUT SECTION
 ======================================================--> 
-<!-- ======= About Section ======= -->
 <section id="about" class="about">
     <div class="container">
 
       <div class="row no-gutters">
-        <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start"></div>
+        <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start wow slideInLeft"></div>
         <div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch">
           <div class="content d-flex flex-column justify-content-center">
-            <h3 class="heading">ABOUT <span>US</span></h3>
+            <h3 class="heading" data-aos="fade-up">ABOUT <span>US</span></h3>
             <p>
                Our priority is to provide the market well designed and informative lessons ,clear instructions and support.Nextoc team make sure that our clients gets the best training on the stock market . Our support and training will help you to reduce risk and generate regular income and create wealth for your dream future.
             </p>
@@ -158,12 +156,12 @@
                Nextoc offers comprehensive courses covering diverse asset classes. You get the opportunity to choose the one that best suits your training or investing style.
               </p>
             <div class="row">
-              <div class="col-md-6 icon-box">
+              <div class="col-md-6 icon-box wow fadeInUp" data-wow-delay="0.2s">
                 <i class="fa fa-user" aria-hidden="true"></i>
                 <h4>Honest guidance</h4>
                 <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
               </div>
-              <div class="col-md-6 icon-box">
+              <div class="col-md-6 icon-box wow fadeInUp" data-wow-delay="0.4s">
                 <i class="fa fa-bar-chart" aria-hidden="true"></i>
                 <h4>Real experience</h4>
                 <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
@@ -178,11 +176,12 @@
     <img loading="lazy" src="assets/images/rounded1.png" class="img-fluid rounded_img" alt="">
   </section><!-- End About Section -->
 
+
 <section id="about-boxes" class="about-boxes">
     <div class="container" data-aos="fade-up">
 
       <div class="row">
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
           <div class="card">
             <img loading="lazy" src="assets/images/about-boxes-1.jpg" class="card-img-top" alt="...">
             <div class="card-icon">
@@ -194,7 +193,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
           <div class="card">
             <img loading="lazy" src="assets/images/about-boxes-2.jpg" class="card-img-top" alt="...">
             <div class="card-icon">
@@ -206,7 +205,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
           <div class="card">
             <img loading="lazy" src="assets/images/about-boxes-3.jpg" class="card-img-top" alt="...">
             <div class="card-icon">
@@ -224,7 +223,7 @@
   </section>
 
 <!--=====================================================
-					CLIENT SECTION
+					SERVICE SECTION
 ======================================================--> 
    <section id="servicez" class="our_servicez">
         <div class="container">
@@ -233,21 +232,21 @@
             <h3 class="common heading">OUR <span>SERVICES</span></h3>
           </div>
 
-          <div class="row">
-            <div class="col-md-6">
-               <div class="service_box">
-                     <div class="icon">                    
-                        <svg id="Layer_3" enable-background="new 0 0 64 64" viewBox="0 0 64 64" width="512" xmlns="http://www.w3.org/2000/svg"><g><path d="m33 38.858c1.72-.447 3-1.999 3-3.858 0-2.206-1.794-4-4-4-1.103 0-2-.897-2-2s.897-2 2-2 2 .897 2 2h2c0-1.859-1.28-3.411-3-3.858v-2.142h-2v2.142c-1.72.447-3 1.999-3 3.858 0 2.206 1.794 4 4 4 1.103 0 2 .897 2 2s-.897 2-2 2-2-.897-2-2h-2c0 1.859 1.28 3.411 3 3.858v2.142h2z"/><path d="m32 19c-7.168 0-13 5.832-13 13h2c0-6.065 4.935-11 11-11z"/><path d="m43 32c0 6.065-4.935 11-11 11v2c7.168 0 13-5.832 13-13z"/><path d="m21.6 8.164c-3.135 1.369-5.934 3.318-8.319 5.792l1.439 1.389c2.203-2.284 4.787-4.084 7.681-5.349z"/><path d="m25.761 6.754c-.704.173-1.404.377-2.082.606l.642 1.895c.624-.211 1.27-.399 1.918-.56z"/><path d="m29.922 6.082c-.683.054-1.383.138-2.08.249l.316 1.975c.644-.104 1.29-.181 1.92-.229z"/><path d="m32 3c7.747 0 15.029 3.017 20.506 8.494.375.375 1.039.375 1.414 0l2.08-2.08v7.586h-7.586l1.971-1.971c.391-.391.391-1.023 0-1.414-4.911-4.911-11.44-7.615-18.385-7.615v2c6.076 0 11.808 2.243 16.249 6.337l-2.956 2.956c-.286.286-.372.716-.217 1.09s.52.617.924.617h11c.552 0 1-.447 1-1v-11c0-.404-.244-.77-.617-.924-.376-.157-.804-.07-1.09.217l-3.091 3.091c-5.765-5.414-13.255-8.384-21.202-8.384-17.093 0-31 13.906-31 31h2c0-15.99 13.009-29 29-29z"/><path d="m50.72 50.044-1.439-1.389c-2.203 2.284-4.787 4.084-7.681 5.349l.801 1.832c3.135-1.369 5.933-3.318 8.319-5.792z"/><path d="m38.239 57.246c.704-.173 1.404-.377 2.082-.606l-.642-1.895c-.624.211-1.27.399-1.918.56z"/><path d="m34.078 57.918c.683-.054 1.383-.138 2.08-.249l-.316-1.975c-.644.104-1.29.181-1.92.229z"/><path d="m61 32c0 15.99-13.009 29-29 29-7.747 0-15.029-3.017-20.506-8.494-.375-.375-1.039-.375-1.414 0l-2.08 2.08v-7.586h7.586l-1.971 1.971c-.391.391-.391 1.023 0 1.414 4.911 4.911 11.44 7.615 18.385 7.615v-2c-6.076 0-11.808-2.243-16.249-6.337l2.956-2.956c.286-.286.372-.716.217-1.09s-.52-.617-.924-.617h-11c-.552 0-1 .447-1 1v11c0 .404.244.77.617.924.374.156.804.069 1.09-.217l3.091-3.091c5.765 5.414 13.255 8.384 21.202 8.384 17.093 0 31-13.906 31-31z"/><path d="m49 32c0-9.374-7.626-17-17-17s-17 7.626-17 17 7.626 17 17 17 17-7.626 17-17zm-17 15c-8.271 0-15-6.729-15-15s6.729-15 15-15 15 6.729 15 15-6.729 15-15 15z"/></g></svg>
-                     </div>
-                     <div class="detail">
-                        <h5>Investment Advisory</h5>
-                        <p>As a specialized sub-custodian, standardize fund processing efficiency and safety in the investment funds sector.</p>
-                        <div class="mt-auto link-1">Explore</div>
-                     </div>
+               <div class="row">
+                  <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="0.5s">
+                     <div class="service_box">
+                           <div class="icon">                    
+                              <svg id="Layer_3" enable-background="new 0 0 64 64" viewBox="0 0 64 64" width="512" xmlns="http://www.w3.org/2000/svg"><g><path d="m33 38.858c1.72-.447 3-1.999 3-3.858 0-2.206-1.794-4-4-4-1.103 0-2-.897-2-2s.897-2 2-2 2 .897 2 2h2c0-1.859-1.28-3.411-3-3.858v-2.142h-2v2.142c-1.72.447-3 1.999-3 3.858 0 2.206 1.794 4 4 4 1.103 0 2 .897 2 2s-.897 2-2 2-2-.897-2-2h-2c0 1.859 1.28 3.411 3 3.858v2.142h2z"/><path d="m32 19c-7.168 0-13 5.832-13 13h2c0-6.065 4.935-11 11-11z"/><path d="m43 32c0 6.065-4.935 11-11 11v2c7.168 0 13-5.832 13-13z"/><path d="m21.6 8.164c-3.135 1.369-5.934 3.318-8.319 5.792l1.439 1.389c2.203-2.284 4.787-4.084 7.681-5.349z"/><path d="m25.761 6.754c-.704.173-1.404.377-2.082.606l.642 1.895c.624-.211 1.27-.399 1.918-.56z"/><path d="m29.922 6.082c-.683.054-1.383.138-2.08.249l.316 1.975c.644-.104 1.29-.181 1.92-.229z"/><path d="m32 3c7.747 0 15.029 3.017 20.506 8.494.375.375 1.039.375 1.414 0l2.08-2.08v7.586h-7.586l1.971-1.971c.391-.391.391-1.023 0-1.414-4.911-4.911-11.44-7.615-18.385-7.615v2c6.076 0 11.808 2.243 16.249 6.337l-2.956 2.956c-.286.286-.372.716-.217 1.09s.52.617.924.617h11c.552 0 1-.447 1-1v-11c0-.404-.244-.77-.617-.924-.376-.157-.804-.07-1.09.217l-3.091 3.091c-5.765-5.414-13.255-8.384-21.202-8.384-17.093 0-31 13.906-31 31h2c0-15.99 13.009-29 29-29z"/><path d="m50.72 50.044-1.439-1.389c-2.203 2.284-4.787 4.084-7.681 5.349l.801 1.832c3.135-1.369 5.933-3.318 8.319-5.792z"/><path d="m38.239 57.246c.704-.173 1.404-.377 2.082-.606l-.642-1.895c-.624.211-1.27.399-1.918.56z"/><path d="m34.078 57.918c.683-.054 1.383-.138 2.08-.249l-.316-1.975c-.644.104-1.29.181-1.92.229z"/><path d="m61 32c0 15.99-13.009 29-29 29-7.747 0-15.029-3.017-20.506-8.494-.375-.375-1.039-.375-1.414 0l-2.08 2.08v-7.586h7.586l-1.971 1.971c-.391.391-.391 1.023 0 1.414 4.911 4.911 11.44 7.615 18.385 7.615v-2c-6.076 0-11.808-2.243-16.249-6.337l2.956-2.956c.286-.286.372-.716.217-1.09s-.52-.617-.924-.617h-11c-.552 0-1 .447-1 1v11c0 .404.244.77.617.924.374.156.804.069 1.09-.217l3.091-3.091c5.765 5.414 13.255 8.384 21.202 8.384 17.093 0 31-13.906 31-31z"/><path d="m49 32c0-9.374-7.626-17-17-17s-17 7.626-17 17 7.626 17 17 17 17-7.626 17-17zm-17 15c-8.271 0-15-6.729-15-15s6.729-15 15-15 15 6.729 15 15-6.729 15-15 15z"/></g></svg>
+                           </div>
+                           <div class="detail">
+                              <h5>Investment Advisory</h5>
+                              <p>Cryptocurrencies allow their owners to buy goods and services, or to trade them for profit.</p>
+                              <div class="mt-auto link-1">Explore</div>
+                           </div>
+                        </div>
                   </div>
-            </div>
-            <div class="col-md-6">
-                  <div class="service_box">
+                  <div class="col-md-6 wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.5s">
+                  <div class="service_box" >
                         <div class="icon">
                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                            viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
@@ -332,27 +331,27 @@
                         </div>
                      </div>
                </div>
-               <div class="col-md-6">
+               <div class="col-md-6 wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="0.5s" >
                   <div class="service_box">
                         <div class="icon">
                            <svg id="Layer_1" enable-background="new 0 0 511.214 511.214" viewBox="0 0 511.214 511.214" width="512" xmlns="http://www.w3.org/2000/svg"><path d="m472.63 73.689c-49.336-51.42-138.101-51.452-187.476-.078l-22.946 22.293-25.66-25.66c-54.088-54.089-142.098-54.089-196.186 0-53.815 51.634-53.816 144.552 0 196.186l2.599 2.599-5.078 5.079c-19.357 18.572-19.356 51.99 0 70.562l.442.442c9.298 9.298 21.621 14.464 34.749 14.601.137 13.128 5.304 25.45 14.601 34.748l.442.442c9.479 9.476 22.124 14.692 35.531 14.608.327 12.84 5.467 24.864 14.583 33.98l.442.442c18.573 19.357 51.99 19.356 70.562 0l6.676-6.675 29.868 29.869c19.214 19.213 50.478 19.212 69.693-.001 9.417-9.417 14.206-21.727 14.393-34.095 25.539.13 48.072-21.925 48.464-47.482 36.444-.393 58.469-41.317 38.961-71.964l55.041-52.051c51.73-49.292 51.859-138.384.299-187.845zm-384.957 250.21c-7.405 7.718-20.731 7.718-28.136 0l-.442-.442c-7.718-7.406-7.718-20.73 0-28.136l27.544-27.545c7.76-7.759 20.382-7.754 28.142.006l.437.437c7.756 7.756 7.757 20.376.004 28.133zm49.792 49.792c-7.405 7.719-20.731 7.718-28.136 0l-.442-.442c-7.718-7.406-7.717-20.731 0-28.137l45.023-45.022c7.41-7.72 20.73-7.719 28.142.006l.437.437c7.718 7.406 7.717 20.731 0 28.137zm68.412 31.175-17.857 17.855c-7.41 7.72-20.73 7.719-28.142-.006l-.439-.439c-7.716-7.405-7.714-20.73.002-28.134l17.857-17.855c7.41-7.72 20.73-7.719 28.142.006l.437.437c7.719 7.404 7.718 20.73 0 28.136zm183.685-54.256c-6.6 6.599-17.337 6.601-23.937 0l-29.759-29.759c-5.857-5.857-15.355-5.857-21.213 0s-5.858 15.355 0 21.213l28.093 28.093c17.34 18.843-8.445 44.602-27.268 27.269l-27.945-27.945c-5.857-5.857-15.355-5.857-21.213 0s-5.858 15.355 0 21.213l27.8 27.8c.048.05.089.104.138.153 7.518 7.518 7.518 19.751 0 27.268-7.518 7.52-19.75 7.517-27.268.001l-31.312-31.312c10.503-18.755 6.942-44.051-8.594-59.091l-.437-.437c-5.1-5.1-11.114-8.947-17.667-11.416 14.156-19.013 11.878-47.822-5.285-64.345l-.437-.437c-13.809-14.18-36.169-18.53-54.312-10.869-2.285-7.695-6.458-14.943-12.522-21.008l-.437-.437c-19.454-19.453-51.107-19.452-70.563 0l-1.253 1.253-2.598-2.598c-42.392-42.392-42.392-111.368 0-153.76 42.393-42.391 111.369-42.391 153.76 0l25.355 25.354-48.084 46.716c-21.47 19.91-21.769 56.506-.631 76.765 20.993 20.992 55.151 20.992 76.143 0l16.585-16.585c.521-.521 1.371-.521 1.893 0l102.966 102.966c6.567 6.299 6.567 17.634.002 23.935zm61.999-110.724-54.665 51.695-89.087-89.087c-11.664-12.157-32.654-12.157-44.318 0l-16.585 16.585c-9.296 9.295-24.421 9.295-33.717-.002-9.367-8.988-9.23-25.175.301-34.012l92.646-90.012c100.092-92.501 237.484 44.455 145.425 144.833z"/></svg>
                         </div>
                         <div class="detail">
                            <h5>Personal trading support</h5>
-                           <p>Capital funding is the money that lenders and equity holders provide to a business for daily and long-term needs.</p>
+                           <p>A trading account is an investment account. For the most part, however, it refers to an account used to trade securities</p>
                            <div class="mt-auto link-1">Explore</div>
                         </div>
                      </div>
                </div>
 
-               <div class="col-md-6">
+               <div class="col-md-6 wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.5s">
                   <div class="service_box">
                         <div class="icon">
                            <svg id="bold" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="512" xmlns="http://www.w3.org/2000/svg"><path d="m12 13.997c-.103 0-.206-.021-.302-.063l-6.25-2.75c-.272-.121-.448-.389-.448-.687s.176-.566.448-.687l6.25-2.75c.192-.084.412-.084.604 0l6.25 2.75c.272.121.448.389.448.687s-.176.566-.448.687l-6.25 2.75c-.096.042-.199.063-.302.063z"/><path d="m12.906 15.307c-.291.127-.594.19-.906.19s-.615-.063-.902-.188l-4.098-1.804v.688c0 .61.319 1.184.832 1.495 1.441.875 2.805 1.312 4.168 1.312s2.727-.438 4.168-1.312c.513-.311.832-.884.832-1.495v-.688z"/><path d="m1.5 12c0-5.79 4.71-10.5 10.5-10.5 2.079 0 4.055.607 5.732 1.707l-1.512 1.513c-.215.214-.278.537-.163.817.116.28.389.463.693.463h4.5c.414 0 .75-.336.75-.75v-4.5c0-.303-.183-.577-.463-.693-.28-.117-.603-.052-.817.163l-1.914 1.914c-1.971-1.37-4.322-2.134-6.806-2.134-6.617 0-12 5.383-12 12 0 1.173.173 2.339.513 3.466.119.395.534.621.935.502.396-.12.621-.538.501-.935-.298-.987-.449-2.007-.449-3.033z"/><path d="m23.487 8.534c-.119-.396-.536-.621-.935-.502-.396.12-.621.538-.501.935.298.987.449 2.007.449 3.033 0 5.79-4.71 10.5-10.5 10.5-2.079 0-4.055-.607-5.732-1.707l1.512-1.513c.215-.214.278-.537.163-.817-.116-.28-.389-.463-.693-.463h-4.5c-.414 0-.75.336-.75.75v4.5c0 .303.183.577.463.693.272.113.597.057.817-.163l1.914-1.914c1.971 1.37 4.322 2.134 6.806 2.134 6.617 0 12-5.383 12-12 0-1.173-.173-2.339-.513-3.466z"/></svg>
                         </div>
                         <div class="detail">
                            <h5>Education Programs</h5>
-                           <p>Debt funds are preferred by individuals who are not willing to invest in a highly volatile equity market.</p>
+                           <p>An educational program is a program written by the institution of education which determines the learning progress of each subject</p>
                            <div class="mt-auto link-1">Explore</div>
                         </div>
                      </div>
@@ -371,7 +370,7 @@
         <div class="wpb_column vc_column_container vc_col-sm-12">
            <div class="vc_column-inner">
               <div class="wpb_wrapper">
-                 <div class="brabus-intro-wrapper" wow="" fadein"="">
+                 <div class="brabus-intro-wrapper">
                     <h6 class="text-white">Let's Have a look on our services</h6>
                     <h2>
                        <spa class="text-white">OUR</spa>
